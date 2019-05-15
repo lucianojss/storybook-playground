@@ -27,15 +27,15 @@ const ErrorLabel = styled.div`
     color: red;
 `;
 
-const Input = ({ className, label, error, ...props }) => (
+const Input = ({ label, error, ...props }) => (
     <>
         {label ? (
-            <Label className={className}>
+            <Label>
                 {label}
                 <StyledInput error={error} {...props} />
             </Label>
         ) : (
-            <StyledInput className={className} error={error} {...props} />
+            <StyledInput error={error} {...props} />
         )}
         {error && <ErrorLabel>{error}</ErrorLabel>}
     </>

@@ -12,6 +12,9 @@ const Paragraph = styled.p`
     font-weight: bold;
 `;
 
+/**
+ * Counter built with styled Components
+ */
 const Counter = () => {
     const [count, setCount] = useState(0);
 

@@ -1,0 +1,18 @@
+.counter {
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.button {
+    outline: 0;
+    width: 10rem;
+    margin: 1rem;
+    font-size: large;
+    border: 2px black solid;
+    color: black;
+}
