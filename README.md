@@ -1,4 +1,4 @@
-# StoryBook playgound with styleComponents
+# StoryBook playground with styleComponents
 
 ## Prerequisites
 
